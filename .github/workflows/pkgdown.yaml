@@ -35,6 +35,7 @@ jobs:
         with:
           extra-packages: any::pkgdown, local::.
           needs: website
+
       - name: Set locale to Spanish
         run: |
           sudo apt-get update
